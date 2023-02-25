@@ -10,6 +10,6 @@ class PersonController {
 
     @GetMapping("/")
     fun prueba(): String {
-        return "personService!!.save(Person)"
+        return "personService!!.save(Person) "
     }
 }
